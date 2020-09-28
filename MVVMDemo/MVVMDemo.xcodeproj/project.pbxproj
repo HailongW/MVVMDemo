@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC53B3BE2520F3270092E503 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53B3BD2520F3270092E503 /* BaseViewModel.m */; };
+		BC53B3C12520F3530092E503 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53B3C02520F3530092E503 /* MVVMView.m */; };
+		BC53B3C42520F3720092E503 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53B3C32520F3720092E503 /* MVVMViewModel.m */; };
 		BCAE28302520B2DD00E6FFC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE282F2520B2DD00E6FFC6 /* AppDelegate.m */; };
 		BCAE28332520B2DD00E6FFC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE28322520B2DD00E6FFC6 /* SceneDelegate.m */; };
 		BCAE28362520B2DD00E6FFC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE28352520B2DD00E6FFC6 /* ViewController.m */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC53B3BC2520F3270092E503 /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		BC53B3BD2520F3270092E503 /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		BC53B3BF2520F3530092E503 /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		BC53B3C02520F3530092E503 /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		BC53B3C22520F3720092E503 /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		BC53B3C32520F3720092E503 /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
 		BCAE282B2520B2DC00E6FFC6 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAE282E2520B2DD00E6FFC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCAE282F2520B2DD00E6FFC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +70,12 @@
 		BCAE282D2520B2DC00E6FFC6 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC53B3BC2520F3270092E503 /* BaseViewModel.h */,
+				BC53B3BD2520F3270092E503 /* BaseViewModel.m */,
+				BC53B3BF2520F3530092E503 /* MVVMView.h */,
+				BC53B3C02520F3530092E503 /* MVVMView.m */,
+				BC53B3C22520F3720092E503 /* MVVMViewModel.h */,
+				BC53B3C32520F3720092E503 /* MVVMViewModel.m */,
 				BCAE282E2520B2DD00E6FFC6 /* AppDelegate.h */,
 				BCAE282F2520B2DD00E6FFC6 /* AppDelegate.m */,
 				BCAE28312520B2DD00E6FFC6 /* SceneDelegate.h */,
@@ -146,10 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC53B3C42520F3720092E503 /* MVVMViewModel.m in Sources */,
+				BC53B3C12520F3530092E503 /* MVVMView.m in Sources */,
 				BCAE28362520B2DD00E6FFC6 /* ViewController.m in Sources */,
 				BCAE28302520B2DD00E6FFC6 /* AppDelegate.m in Sources */,
 				BCAE28412520B2DE00E6FFC6 /* main.m in Sources */,
 				BCAE28332520B2DD00E6FFC6 /* SceneDelegate.m in Sources */,
+				BC53B3BE2520F3270092E503 /* BaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
